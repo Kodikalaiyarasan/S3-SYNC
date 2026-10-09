@@ -1,0 +1,16 @@
+# S3-SYNC Configuration File
+# Edit this file with your AWS / S3-compatible cloud storage credentials.
+
+# 1. AWS Credentials
+#access-key-id: ""
+#secret-access-key: ""
+# session-token: ""  # Optional, required only for temporary STS credentials
+
+# 2. Region (default: us-east-1)
+region: "ap-south-2"
+
+# 3. Custom S3-Compatible Endpoint (Optional - e.g. Cloudflare R2, Wasabi)
+# endpoint-url: ""
+
+# 4. Path-Style Addressing (default: false for AWS S3)
+path-style: false

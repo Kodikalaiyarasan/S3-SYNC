@@ -1,0 +1,20 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Binaries and executables
+s3-sync
+s3-sync.exe
+*.exe
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local data & temp test directories
+data/
+sample/
+downloaded*/
